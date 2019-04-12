@@ -198,7 +198,7 @@ public class ItemSearchServiceImpl implements ItemSearchService {
 	}
 	
 	public void importItemList(List<TbItem> itemList){
-		solrTemplate.saveBean(itemList);
+		solrTemplate.saveBeans(itemList);
 		solrTemplate.commit();
 	}
 

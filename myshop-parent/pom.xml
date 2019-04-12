@@ -21,6 +21,7 @@
   	<module>myshop.portal-web</module>
   	<module>myshop-page-interface</module>
   	<module>myshop-page-service</module>
+  	<module>myshop-page-web</module>
   </modules>
   
   <!-- 集中定义依赖版本号 -->
