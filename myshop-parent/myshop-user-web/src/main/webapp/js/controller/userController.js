@@ -1,0 +1,40 @@
+app.controller("userController",function($scope,userSerivce){
+	//注册
+	$scope.reg=function(){
+		if($scope.entity.password!=$scope.confirmpwd){
+			alert("两次输入的密码不一致");
+			return;
+		}
+		userSerivce.reg($scope.entity,$scope.smscode).success(
+				function(response){
+					if(response.success){
+						alert("注册成功");
+					}else{
+						alert(response.message);
+					}
+				}
+		)
+	}
+	//发送短信验证码
+	$scope.sendSmsCode=function(){
+		if($scope.entity.phone==null || $scope.entity.phone==""){
+			alert("手机号码不能为空");
+			return;
+		}
+		userSerivce.sendSmsCode($scope.entity.phone).success(
+				function(response){
+					if(!response.success){
+						alert(response.message);
+					}
+				}
+		)
+	}
+	//查询登录名
+	$scope.findLoginName=function(){
+		userSerivce.findLoginName().success(
+				function(response){
+					$scope.loginUser=response;
+				}
+		)
+	}
+})

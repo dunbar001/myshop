@@ -3,7 +3,6 @@ D:\javaworkspace\myshop-parent\myshop-shop-web\src\main\java\com\myshop\shop\con
 D:\javaworkspace\myshop-parent\myshop-shop-web\src\main\java\com\myshop\shop\controller\OrderController.java
 D:\javaworkspace\myshop-parent\myshop-shop-web\src\main\java\com\myshop\shop\controller\UserController.java
 D:\javaworkspace\myshop-parent\myshop-shop-web\src\main\java\com\myshop\shop\controller\ProvincesController.java
-D:\javaworkspace\myshop-parent\myshop-shop-web\src\main\java\com\myshop\shop\controller\ContentController.java
 D:\javaworkspace\myshop-parent\myshop-shop-web\src\main\java\com\myshop\shop\controller\SellerController.java
 D:\javaworkspace\myshop-parent\myshop-shop-web\src\main\java\com\myshop\shop\controller\ItemController.java
 D:\javaworkspace\myshop-parent\myshop-shop-web\src\main\java\com\myshop\shop\controller\UploadController.java
@@ -15,6 +14,5 @@ D:\javaworkspace\myshop-parent\myshop-shop-web\src\main\java\com\myshop\shop\con
 D:\javaworkspace\myshop-parent\myshop-shop-web\src\main\java\com\myshop\shop\controller\ItemCatController.java
 D:\javaworkspace\myshop-parent\myshop-shop-web\src\main\java\com\myshop\service\UserDetailServiceImpl.java
 D:\javaworkspace\myshop-parent\myshop-shop-web\src\main\java\com\myshop\shop\controller\AddressController.java
-D:\javaworkspace\myshop-parent\myshop-shop-web\src\main\java\com\myshop\shop\controller\ContentCategoryController.java
 D:\javaworkspace\myshop-parent\myshop-shop-web\src\main\java\com\myshop\shop\controller\OrderItemController.java
 D:\javaworkspace\myshop-parent\myshop-shop-web\src\main\java\com\myshop\shop\controller\BrandController.java
